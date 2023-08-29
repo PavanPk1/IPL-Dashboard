@@ -1,0 +1,59 @@
+.LatestMatch-container {
+  background-color: #0f172a;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  width: 100%;
+  font-family: 'Bree Serif';
+}
+@media (max-width: 768px) {
+  .LatestMatch-container {
+    flex-direction: column;
+  }
+}
+.competingTeam-logo {
+  width: 25%;
+}
+.latestMatch-section1 {
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .latestMatch-section1 {
+    width: 60%;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .latestMatch-section2 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hr-line {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .hr-line {
+    background-color: #ffffff33;
+    width: 100%;
+  }
+}
+.competingTeam-heading {
+  font-size: 32px;
+}
+.competingTeam-date {
+  font-size: 24px;
+}
+.competingTeam-venue {
+  font-size: 18px;
+}
+.competingTeam-result {
+  font-size: 18px;
+}

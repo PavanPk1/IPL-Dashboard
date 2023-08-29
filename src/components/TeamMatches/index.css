@@ -1,0 +1,45 @@
+.inside-matchCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .inside-matchCard {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+  }
+}
+.TeamMatch-container {
+  padding: 25px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.team-banner-image {
+  width: 100%;
+  background-size: cover;
+}
+.latestMatches-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .latestMatches-heading {
+    font-size: 14px;
+  }
+}
+.matchCards-unorderedList {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
